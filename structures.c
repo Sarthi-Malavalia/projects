@@ -8,5 +8,5 @@ void main(){
 struct students s;
 s.roll=1234;
 strcpy (s.name,"ramesh");
-printf("roll = %d,name= %s ",roll,name);
+printf("roll = %d,name= %s ",s.roll,s.name);
 }
